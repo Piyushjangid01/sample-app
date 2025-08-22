@@ -10,5 +10,5 @@ spec:
   ports:
     - port: 8000        # service port
       targetPort: 8000  # container port (Django runs here)
-      nodePort: 30080   # external port on your machine (must be 30000–32767)
+      nodePort: 30780   # external port on your machine (must be 30000–32767)
 
